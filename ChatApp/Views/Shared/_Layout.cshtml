@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="~/Content/css/style2.css">
 </head>
 <body>
-    @RenderBody();
+    @RenderBody()
     <script src='~/Content/js/jquery.min.js'></script>
     <script src='~/Content/js/jquery.nicescroll.js'></script>
     <script src="~/Content/js/index.js"></script>
+    <script src="~/Content/lib/signalr/signalr.min.js"></script>
+    @RenderSection("Scripts", false)
 </body>
 </html>
